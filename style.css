@@ -1,0 +1,427 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+}
+a{
+	text-decoration: none;
+	background-color: red;
+}
+ul{
+	list-style-type: none;
+}
+ul a{
+	text-decoration: none;
+}
+img{
+	width: 100%;
+}
+.topnav {
+  overflow: hidden;
+  background-color: black;
+}
+
+
+.search-container {
+  float: right;
+  background: #fff;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-right: 2px;
+  padding-left: 10px;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin: auto;
+  font-size: 17px;
+  color: grey;
+  font-weight: 600;
+  border: none;
+  border-radius: 20px;
+  size: 50;
+}
+.topnav input[type=text]:focus{
+	outline: none;
+}
+.topnav input[type=text], select{
+	
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  background: none;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+
+#nav-social{
+	float: right;
+	text-decoration: none;
+	color: white;
+	margin-right: 7%;
+}
+.nav-social{
+	text-decoration: none;
+	color: #fff;
+}
+.fa-facebook {
+  font-size: 20Px 
+  color: white;
+  padding: 10px; 
+  margin-right: 2px;
+  margin-top: 5px;
+}
+.fa-facebook :hover{
+ color: #0eb3a9;
+ background: #fff;
+ cursor: pointer;
+}
+.fa-instagram {
+  font-size: 20Px 
+  color: white;
+  padding: 10px;
+  margin-right: 2px;
+  margin-top: 5px;
+}
+
+.fa-twitter {
+  font-size: 20Px 
+  color: white;
+  padding: 10px;
+  margin: 2px;
+  margin-top: 5px;
+}
+/********************************************navbar********************/
+.nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar{
+	background-image: linear-gradient(to right,#0eb3a9,#0eb3a9);
+	padding: 0 !important; 
+}
+.navbar img{
+	margin-top: 10px;
+	margin-left: 45%;
+}
+.navbar-brand{
+	height: 60px;
+	padding-left: 20PX;
+	color: #fff !important;
+}
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	color: #fff !important;
+	font-weight: 600;
+	text-align: center;
+}
+.navbar-nav li a:hover{
+	background: blue;
+	transition: 0.5s;
+
+}
+.fa-bars{
+	color: #fff !important;
+	font-size: 30px;
+}
+.navbar-toggler{
+	outline: none !important;
+}
+.collapse{
+	margin-right: 5%;
+}
+/***************************************banner*********************/
+#banner{
+	background-image: url('banner1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 900px;
+	color: #fff;
+	padding: 5%;
+}
+.promo-title{
+	font-size: 50px;
+	font-weight: 600;
+	margin-top: 100px;
+}
+#banner a{
+	color: #fff;
+	text-decoration: none;
+}
+.bannerbutton{
+	background-image:linear-gradient(to right, #f38f3c,#ef720b);
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 20px;
+	font-size: 20PX;
+	text-transform: uppercase;
+}
+.bannerbutton:hover{
+	border: 2px solid blue;
+	color: #ef720b;
+	background: #fff;
+	font-weight: 400;
+}
+.mainbutton{
+	background-image:linear-gradient(to right, #f38f3c,#ef720b);
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	text-transform: uppercase;
+}
+.mainbutton:hover{
+	border: 2px solid blue;
+	color: #ef720b;
+	background: #fff;
+	font-weight: 400;
+}
+/************************************about us***************************/
+.headlineclass{
+	margin: auto;
+	margin-top: 7%;
+}
+.headline{
+	margin: 20px auto;
+	color: #05756e;
+	text-transform: uppercase;
+}
+.item{
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 600;
+}
+#about img:hover{
+	cursor: pointer;
+	box-shadow: 5px 5px #0eb3a9; 
+
+}
+/***************************slider******************/
+		.carousel{
+			background: #fff;
+		}
+		.carousel-cell{
+			width: 28%;
+			height: 150px;
+			margin-right: 10px;
+			counter-increment: carousel-cell;
+
+		}
+		.carousel-cell.is-selected{
+		background: #fff;
+		}
+		.carousel-cell:before{
+		display: block;
+	}
+
+
+	/********************rate*****************/
+	#ratep{
+		text-align: justify;
+		color: gray;
+		padding: 25px 0px;
+	}
+	#about-rate img:hover{
+		cursor: pointer;
+		box-shadow: 5px 5px #0eb3a9;
+		}
+
+/*********************************get in touch********/
+#touch{
+	background-image:linear-gradient(to right,#0eb3a9,#0eb3a9);
+	padding: 50px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.buttontouch{
+	background:#ef720b;
+	padding: 10px;
+	text-transform: uppercase;
+	border: none; 
+	border-radius: 10px;
+	margin: auto;
+	color: #fff;
+	font-weight: 500;
+
+}
+.buttontouch:hover{
+	background-color: #fff;
+	color:#ef720b;
+	padding: 8px;
+	border:2px solid blue; 
+
+}
+li{
+	color: gray
+}
+li a{
+	text-decoration: none;
+}
+li a: hover{
+	text-decoration: none;
+	font-size: 20px;
+}
+.arro{
+	color: #0eb3a9;
+	font-size: 15px;
+	font-weight: 100;
+}
+#footer{
+	padding: 15px;
+}
+#footer img{
+	width: auto;
+}
+#footer .fa-facebook{
+	background-color:#17b7ad;
+	border-radius: 100%;
+	color: #fff;
+	font-weight: 400;
+	margin-right: 5px;
+	padding: 7px;
+	padding-left: 10px; 
+	font-size: 30px;
+	height: 40px;
+	width: 38px;
+}
+#footer .fa-instagram {
+	background-color:#17b7ad;
+	border-radius: 100%;
+	color: #fff;
+	padding: 6px;
+	padding-right: 8px;
+	padding-left: 8px;
+	font-weight: 400;
+	margin-right: 8px;
+	font-size: 30px; 
+}
+#footer .fa-twitter {
+	background-color:#17b7ad;
+	border-radius: 50%;
+	color: #fff;
+	font-weight: 400;
+	margin-right: 5px;
+	margin-top: -5px; 
+	padding: 8px;
+	font-size: 25px;
+}
+#footer ul li a{
+	text-decoration: none;
+}
+#footer .fa-twitter:hover{
+	background: blue;
+}
+#footer .fa-facebook:hover{
+	background: blue;
+}
+#footer .fa-instagram:hover{
+	background: blue;
+}
+
+
+/**********************************copyright**********/
+#copyrigth{
+	background-image:linear-gradient(to right,#0eb3a9,#0eb3a9);
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+.copy{
+	margin: auto;
+}
+.fa-facebook:hover{
+	cursor: pointer;
+	background: blue;
+}
+.fa-twitter:hover{
+	cursor: pointer;
+	background: blue;
+}
+.fa-instagram:hover{
+	cursor: pointer;
+	background: blue;
+}
+/************************************************media Query*********/
+@media screen and (max-width:1024px){
+	.navbar img{
+		margin-left: auto;
+	}
+}
+@media screen and (max-width:768px){
+	.navbar img{
+		margin-left: 20px;
+	}
+	#footer img{
+		width: 80%;
+	}
+}
+@media screen and (max-width:414px){
+	.navbar img{
+		width: 50%;
+		margin: auto;
+	}
+	.promo-title{
+		font-size: 30px;
+	}
+	#about{
+		text-align: center;
+	}
+	.headline{
+		font-size: 20px;
+	}
+	#footer img{
+		width: 60%;
+	}
+	#about-rate{
+		text-align: center;
+	}
+	.topnav input[type=text]{
+		width: 80px;
+	}
+
+	}
+	@media screen and (max-width:500px){
+		#about{
+			text-align: center;
+		}
+		#about-rate{
+			text-align: center;
+		}
+	}
+	@media screen and (max-width:360px){
+		.headline{
+		font-size: 17px;
+	}
+	.bannerbutton{
+		font-size: 10px;
+	}
+	}
+	@media screen and (max-width:280px){
+		.buttontouch{
+			font-size: 10px;
+		}
+		.buttonmain{
+			font-size: 8px;
+		}
+	}
